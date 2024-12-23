@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "tanha";
+    font-size: 1.2rem;
+  
+}
+body{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+    background-image: url(img/bg2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    direction: rtl;
+}
+.main_container{
+    position: relative;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    border: 0.5px solid white;
+    padding: 15px 20px;
+    background-color: rgba(27, 38, 49,0.8);
+    height: 353px;
+    max-width: 90px;
+}
+.o_p_icon{
+    position: absolute;
+    background-color: white;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    left: -11px;
+    cursor: pointer;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+.o_p_icon:hover{
+   
+}
+
+li{
+    list-style-type: none;
+    cursor: pointer;
+}
+.main_ul{
+    position: relative;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+
+}
+.item{
+     display: flex;
+     flex-direction: row;
+     gap: 10px;
+     align-items: center;
+     padding: 5px 10px;
+     border-radius: 4px;
+     -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+     -ms-border-radius: 4px;
+     -o-border-radius: 4px;
+}
+.item:hover{
+    background-color: white;
+    color: black;
+}
+.title{
+        display: none;
+        opacity: 0;
+        visibility: hidden;
+        transition: all 0.5s;
+        -webkit-transition: all 0.5s;
+        -moz-transition: all 0.5s;
+        -ms-transition: all 0.5s;
+        -o-transition: all 0.5s;
+}
+.num{
+    position: absolute;
+    left: -18px;
+    bottom: 15px;
+    background-color: red;
+    text-align: center;
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    font-size: x-small;
+}
